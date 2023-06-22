@@ -1,0 +1,5 @@
+The final model is a neural network with 2 hidden layers with 40 and 20 units respectively and tanh activation function. 
+Values for all the hyperparameters are specified in the report.
+We kept 10% of the initial dataset for model assessment and we selected the model with an exhaustive grid search
+using 5-fold cross validation on the remaining 90%. We then retrained the selected model on the training set and
+predicted the outputs for the blind test.
